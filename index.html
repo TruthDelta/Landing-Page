@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1e057c350f.js" crossorigin="anonymous"></script>
     <title>Landing Page</title>
 </head>
 
@@ -22,48 +23,51 @@
 
             <div id="titulo">
                 <h1>LOMBOK</h1>
-                <p>HOLISTIC HEALTH</p>
+                <p>HEALTH FLOWERS</p>
                 <hr>
             </div>
         </header>
 
         <section id="artigos">
-            <h2>LAST ARTICLES</h2>
-            <hr>
+            <div class="topo">
+                <h2>LAST ARTICLES</h2>
+                <hr>
+            </div>
 
             <div class="assuntos">
                 <div>
-                
-                    <img src="imagens/bg header.jpg" alt>
-            
+                    <img src="imagens/Assu 1.jpg" alt>
 
                     <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime voluptate explicabo necessitatibus quis ad deleniti voluptas delectus corporis, nobis facilis expedita omnis officia atque eaque at sint voluptatum optio aliquam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime voluptate explicabo
+                        necessitatibus quis ad deleniti voluptas delectus corporis, nobis facilis expedita omnis officia
+                        atque eaque at sint voluptatum optio aliquam.</p>
                 </div>
 
                 <div>
-                    
-                    <img src="imagens/bg header.jpg" alt>
-                
+                    <img src="imagens/Assu 2.jpg" alt>
 
                     <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime voluptate explicabo necessitatibus quis ad deleniti voluptas delectus corporis, nobis facilis expedita omnis officia atque eaque at sint voluptatum optio aliquam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime voluptate explicabo
+                        necessitatibus quis ad deleniti voluptas delectus corporis, nobis facilis expedita omnis officia
+                        atque eaque at sint voluptatum optio aliquam.</p>
                 </div>
 
                 <div>
-                    
-                    <img src="imagens/bg header.jpg" alt>
-                
+                    <img src="imagens/Assu 3.jpg" alt>
+
                     <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime voluptate explicabo necessitatibus quis ad deleniti voluptas delectus corporis, nobis facilis expedita omnis officia atque eaque at sint voluptatum optio aliquam.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime voluptate explicabo
+                        necessitatibus quis ad deleniti voluptas delectus corporis, nobis facilis expedita omnis officia
+                        atque eaque at sint voluptatum optio aliquam.</p>
                 </div>
             </div>
         </section>
 
         <section id="about">
-
-                <img src="imagens/bg header.jpg" alt>
-    
+            <div id="img">
+                <img src="imagens/girassol.png" alt>
+            </div>
 
             <div class="text">
                 <h2>ABOUT</h2>
@@ -71,29 +75,42 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione placeat nam iste blanditiis, vel
                     dolore
                     alias libero quos praesentium laborum ipsam ipsum quis nemo aspernatur labore voluptatum repellendus
-                    sit? Reiciendis?</p>
+                    sit? Reiciendis?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquam error voluptatem aspernatur
+                    exercitationem at temporibus, reprehenderit labore. Consequuntur fugiat distinctio ut minima quo
+                    unde soluta illum suscipit modi eligendi?
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed nemo maiores fuga reiciendis? Magni
+                    molestias, laboriosam minus iusto repudiandae facilis, repellat quae soluta aliquid modi quibusdam
+                    eveniet nisi officiis recusandae?
+                </p>
             </div>
         </section>
 
         <section id="subscribe">
             <h2>SUBSCRIBE</h2>
             <p>Sign-up to our newsletter</p>
-
-            <input type="email" placeholder="Your email">
-
-            <input type="submit"><a href="">SUBMIT</a></input>
+            <form>
+            <label for="email"></label>
+            <input type="email" placeholder="Your email" id="email"></input>
+<br>
+            <input type="submit" value="SUBMIT" id="submit"></input>
+            </form>
+            
         </section>
 
         <footer>
-            <div>
-
+            <div class="icones">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
             </div>
 
-            <div>
+            <div id="list">
                 <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#artigos">ARTICLES</a></li>
+                    <li><a href="#subscribe">SUBSCRIBE</a></li>
                 </ul>
             </div>
         </footer>
