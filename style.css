@@ -30,6 +30,12 @@ gap: 2vw;
 align-items: center;
 }
 
+#list li :hover {
+background-color: rgba(172, 255, 47, 0.599);
+transition: 0.5s;
+margin: 2px;
+}
+
 #list a {
     color: black;
 }
@@ -170,10 +176,16 @@ margin-bottom: 5px;
 }
 
 #submit {
-    padding: 20px;
+    padding: 15px;
     width: 15vw;
     background-color: beige;
     border: solid green;
+}
+
+#submit:hover {
+    background-color: rgb(255, 255, 157);
+    border: solid rgb(0, 48, 0);
+    transition: 0.5s;
 }
 
 footer {
@@ -196,4 +208,3 @@ justify-content: space-between;
     border-radius: 140px;
 color: white;
 }
-
